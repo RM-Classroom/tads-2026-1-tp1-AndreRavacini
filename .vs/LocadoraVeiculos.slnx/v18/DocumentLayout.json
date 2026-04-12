@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\ANDRE-RAVACINI\\source\\repos\\LocadoraVeiculos\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2A876264-397D-93A7-E517-0F63FBA3F39D}|LocadoraVeiculos\\LocadoraVeiculos.csproj|c:\\users\\andre-ravacini\\source\\repos\\locadoraveiculos\\locadoraveiculos\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A876264-397D-93A7-E517-0F63FBA3F39D}|LocadoraVeiculos\\LocadoraVeiculos.csproj|solutionrelative:locadoraveiculos\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A876264-397D-93A7-E517-0F63FBA3F39D}|LocadoraVeiculos\\LocadoraVeiculos.csproj|c:\\users\\andre-ravacini\\source\\repos\\locadoraveiculos\\locadoraveiculos\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{2A876264-397D-93A7-E517-0F63FBA3F39D}|LocadoraVeiculos\\LocadoraVeiculos.csproj|solutionrelative:locadoraveiculos\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2A876264-397D-93A7-E517-0F63FBA3F39D}|LocadoraVeiculos\\LocadoraVeiculos.csproj|c:\\users\\andre-ravacini\\source\\repos\\locadoraveiculos\\locadoraveiculos\\controllers\\fabricantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A876264-397D-93A7-E517-0F63FBA3F39D}|LocadoraVeiculos\\LocadoraVeiculos.csproj|solutionrelative:locadoraveiculos\\controllers\\fabricantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2A876264-397D-93A7-E517-0F63FBA3F39D}|LocadoraVeiculos\\LocadoraVeiculos.csproj|c:\\users\\andre-ravacini\\source\\repos\\locadoraveiculos\\locadoraveiculos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A876264-397D-93A7-E517-0F63FBA3F39D}|LocadoraVeiculos\\LocadoraVeiculos.csproj|solutionrelative:locadoraveiculos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A876264-397D-93A7-E517-0F63FBA3F39D}|LocadoraVeiculos\\LocadoraVeiculos.csproj|c:\\users\\andre-ravacini\\source\\repos\\locadoraveiculos\\locadoraveiculos\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{2A876264-397D-93A7-E517-0F63FBA3F39D}|LocadoraVeiculos\\LocadoraVeiculos.csproj|solutionrelative:locadoraveiculos\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2A876264-397D-93A7-E517-0F63FBA3F39D}|LocadoraVeiculos\\LocadoraVeiculos.csproj|c:\\users\\andre-ravacini\\source\\repos\\locadoraveiculos\\locadoraveiculos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -66,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,20 +78,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LocadoraVeiculos",
+              "DocumentIndex": 0,
+              "Title": "ClientesController.cs",
+              "DocumentMoniker": "C:\\Users\\ANDRE-RAVACINI\\source\\repos\\LocadoraVeiculos\\LocadoraVeiculos\\Controllers\\ClientesController.cs",
+              "RelativeDocumentMoniker": "LocadoraVeiculos\\Controllers\\ClientesController.cs",
+              "ToolTip": "C:\\Users\\ANDRE-RAVACINI\\source\\repos\\LocadoraVeiculos\\LocadoraVeiculos\\Controllers\\ClientesController.cs",
+              "RelativeToolTip": "LocadoraVeiculos\\Controllers\\ClientesController.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAmwEYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T20:19:17.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LocadoraVeiculos.csproj",
               "DocumentMoniker": "C:\\Users\\ANDRE-RAVACINI\\source\\repos\\LocadoraVeiculos\\LocadoraVeiculos\\LocadoraVeiculos.csproj",
               "RelativeDocumentMoniker": "LocadoraVeiculos\\LocadoraVeiculos.csproj",
               "ToolTip": "C:\\Users\\ANDRE-RAVACINI\\source\\repos\\LocadoraVeiculos\\LocadoraVeiculos\\LocadoraVeiculos.csproj",
               "RelativeToolTip": "LocadoraVeiculos\\LocadoraVeiculos.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-12T20:09:07.766Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-12T20:09:07.766Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "FabricantesController.cs",
               "DocumentMoniker": "C:\\Users\\ANDRE-RAVACINI\\source\\repos\\LocadoraVeiculos\\LocadoraVeiculos\\Controllers\\FabricantesController.cs",
               "RelativeDocumentMoniker": "LocadoraVeiculos\\Controllers\\FabricantesController.cs",
@@ -100,20 +116,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": ".gitignore",
               "DocumentMoniker": "C:\\Users\\ANDRE-RAVACINI\\source\\repos\\LocadoraVeiculos\\LocadoraVeiculos\\.gitignore",
               "RelativeDocumentMoniker": "LocadoraVeiculos\\.gitignore",
               "ToolTip": "C:\\Users\\ANDRE-RAVACINI\\source\\repos\\LocadoraVeiculos\\LocadoraVeiculos\\.gitignore",
               "RelativeToolTip": "LocadoraVeiculos\\.gitignore",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2026-04-12T19:21:42.905Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "20260412184904_Inicial.cs",
               "DocumentMoniker": "C:\\Users\\ANDRE-RAVACINI\\source\\repos\\LocadoraVeiculos\\LocadoraVeiculos\\Migrations\\20260412184904_Inicial.cs",
               "RelativeDocumentMoniker": "LocadoraVeiculos\\Migrations\\20260412184904_Inicial.cs",
@@ -125,7 +141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Pagamento.cs",
               "DocumentMoniker": "C:\\Users\\ANDRE-RAVACINI\\source\\repos\\LocadoraVeiculos\\LocadoraVeiculos\\Models\\Pagamento.cs",
               "RelativeDocumentMoniker": "LocadoraVeiculos\\Models\\Pagamento.cs",
@@ -137,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Aluguel.cs",
               "DocumentMoniker": "C:\\Users\\ANDRE-RAVACINI\\source\\repos\\LocadoraVeiculos\\LocadoraVeiculos\\Models\\Aluguel.cs",
               "RelativeDocumentMoniker": "LocadoraVeiculos\\Models\\Aluguel.cs",
@@ -149,7 +165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Veiculo.cs",
               "DocumentMoniker": "C:\\Users\\ANDRE-RAVACINI\\source\\repos\\LocadoraVeiculos\\LocadoraVeiculos\\Models\\Veiculo.cs",
               "RelativeDocumentMoniker": "LocadoraVeiculos\\Models\\Veiculo.cs",
@@ -161,7 +177,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Cliente.cs",
               "DocumentMoniker": "C:\\Users\\ANDRE-RAVACINI\\source\\repos\\LocadoraVeiculos\\LocadoraVeiculos\\Models\\Cliente.cs",
               "RelativeDocumentMoniker": "LocadoraVeiculos\\Models\\Cliente.cs",
@@ -173,7 +189,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "CategoriaVeiculo.cs",
               "DocumentMoniker": "C:\\Users\\ANDRE-RAVACINI\\source\\repos\\LocadoraVeiculos\\LocadoraVeiculos\\Models\\CategoriaVeiculo.cs",
               "RelativeDocumentMoniker": "LocadoraVeiculos\\Models\\CategoriaVeiculo.cs",
@@ -185,7 +201,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "CategoriaVeiculos.cs",
               "DocumentMoniker": "C:\\Users\\ANDRE-RAVACINI\\source\\repos\\LocadoraVeiculos\\LocadoraVeiculos\\Models\\CategoriaVeiculos.cs",
               "RelativeDocumentMoniker": "LocadoraVeiculos\\Models\\CategoriaVeiculos.cs",
@@ -197,7 +213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ANDRE-RAVACINI\\source\\repos\\LocadoraVeiculos\\LocadoraVeiculos\\Program.cs",
               "RelativeDocumentMoniker": "LocadoraVeiculos\\Program.cs",
@@ -205,12 +221,11 @@
               "RelativeToolTip": "LocadoraVeiculos\\Program.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAwwB0AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T18:43:43.72Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-12T18:43:43.72Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\ANDRE-RAVACINI\\source\\repos\\LocadoraVeiculos\\LocadoraVeiculos\\appsettings.json",
               "RelativeDocumentMoniker": "LocadoraVeiculos\\appsettings.json",
@@ -222,7 +237,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "LocadoraContext.cs",
               "DocumentMoniker": "C:\\Users\\ANDRE-RAVACINI\\source\\repos\\LocadoraVeiculos\\LocadoraVeiculos\\Data\\LocadoraContext.cs",
               "RelativeDocumentMoniker": "LocadoraVeiculos\\Data\\LocadoraContext.cs",
@@ -234,7 +249,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Fabricante.cs",
               "DocumentMoniker": "C:\\Users\\ANDRE-RAVACINI\\source\\repos\\LocadoraVeiculos\\LocadoraVeiculos\\Models\\Fabricante.cs",
               "RelativeDocumentMoniker": "LocadoraVeiculos\\Models\\Fabricante.cs",
