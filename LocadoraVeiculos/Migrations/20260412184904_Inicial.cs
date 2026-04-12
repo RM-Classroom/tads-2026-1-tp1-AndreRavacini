@@ -1,0 +1,202 @@
+﻿using System;
+using Microsoft.EntityFrameworkCore.Migrations;
+
+#nullable disable
+
+namespace LocadoraVeiculos.Migrations
+{
+    /// <inheritdoc />
+    public partial class Inicial : Migration
+    {
+        /// <inheritdoc />
+        protected override void Up(MigrationBuilder migrationBuilder)
+        {
+            migrationBuilder.CreateTable(
+                name: "CategoriasVeiculo",
+                columns: table => new
+                {
+                    IdCategoriaVeiculo = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Nome = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Descricao = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_CategoriasVeiculo", x => x.IdCategoriaVeiculo);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Clientes",
+                columns: table => new
+                {
+                    IdCliente = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Nome = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    CPF = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Telefone = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    CNH = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Clientes", x => x.IdCliente);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Fabricantes",
+                columns: table => new
+                {
+                    IdFabricante = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Nome = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    PaisOrigem = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Fabricantes", x => x.IdFabricante);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Veiculos",
+                columns: table => new
+                {
+                    IdVeiculo = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Modelo = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    AnoFabricacao = table.Column<int>(type: "int", nullable: false),
+                    QuilometragemAtual = table.Column<int>(type: "int", nullable: false),
+                    Placa = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Cor = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    ValorDiariaBase = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    Status = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    IdFabricante = table.Column<int>(type: "int", nullable: false),
+                    FabricanteIdFabricante = table.Column<int>(type: "int", nullable: false),
+                    IdCategoriaVeiculo = table.Column<int>(type: "int", nullable: false),
+                    CategoriaVeiculoIdCategoriaVeiculo = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Veiculos", x => x.IdVeiculo);
+                    table.ForeignKey(
+                        name: "FK_Veiculos_CategoriasVeiculo_CategoriaVeiculoIdCategoriaVeiculo",
+                        column: x => x.CategoriaVeiculoIdCategoriaVeiculo,
+                        principalTable: "CategoriasVeiculo",
+                        principalColumn: "IdCategoriaVeiculo",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_Veiculos_Fabricantes_FabricanteIdFabricante",
+                        column: x => x.FabricanteIdFabricante,
+                        principalTable: "Fabricantes",
+                        principalColumn: "IdFabricante",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Alugueis",
+                columns: table => new
+                {
+                    IdAluguel = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    DataRetirada = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    DataPrevistaDevolucao = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    DataDevolucao = table.Column<DateTime>(type: "datetime2", nullable: true),
+                    QuilometragemInicial = table.Column<int>(type: "int", nullable: false),
+                    QuilometragemFinal = table.Column<int>(type: "int", nullable: true),
+                    ValorDiaria = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    ValorTotal = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    Status = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    IdCliente = table.Column<int>(type: "int", nullable: false),
+                    ClienteIdCliente = table.Column<int>(type: "int", nullable: false),
+                    IdVeiculo = table.Column<int>(type: "int", nullable: false),
+                    VeiculoIdVeiculo = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Alugueis", x => x.IdAluguel);
+                    table.ForeignKey(
+                        name: "FK_Alugueis_Clientes_ClienteIdCliente",
+                        column: x => x.ClienteIdCliente,
+                        principalTable: "Clientes",
+                        principalColumn: "IdCliente",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_Alugueis_Veiculos_VeiculoIdVeiculo",
+                        column: x => x.VeiculoIdVeiculo,
+                        principalTable: "Veiculos",
+                        principalColumn: "IdVeiculo",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Pagamentos",
+                columns: table => new
+                {
+                    IdPagamento = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    DataPagamento = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    ValorPago = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    FormaPagamento = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    StatusPagamento = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    IdAluguel = table.Column<int>(type: "int", nullable: false),
+                    AluguelIdAluguel = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Pagamentos", x => x.IdPagamento);
+                    table.ForeignKey(
+                        name: "FK_Pagamentos_Alugueis_AluguelIdAluguel",
+                        column: x => x.AluguelIdAluguel,
+                        principalTable: "Alugueis",
+                        principalColumn: "IdAluguel",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Alugueis_ClienteIdCliente",
+                table: "Alugueis",
+                column: "ClienteIdCliente");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Alugueis_VeiculoIdVeiculo",
+                table: "Alugueis",
+                column: "VeiculoIdVeiculo");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Pagamentos_AluguelIdAluguel",
+                table: "Pagamentos",
+                column: "AluguelIdAluguel");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Veiculos_CategoriaVeiculoIdCategoriaVeiculo",
+                table: "Veiculos",
+                column: "CategoriaVeiculoIdCategoriaVeiculo");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Veiculos_FabricanteIdFabricante",
+                table: "Veiculos",
+                column: "FabricanteIdFabricante");
+        }
+
+        /// <inheritdoc />
+        protected override void Down(MigrationBuilder migrationBuilder)
+        {
+            migrationBuilder.DropTable(
+                name: "Pagamentos");
+
+            migrationBuilder.DropTable(
+                name: "Alugueis");
+
+            migrationBuilder.DropTable(
+                name: "Clientes");
+
+            migrationBuilder.DropTable(
+                name: "Veiculos");
+
+            migrationBuilder.DropTable(
+                name: "CategoriasVeiculo");
+
+            migrationBuilder.DropTable(
+                name: "Fabricantes");
+        }
+    }
+}
