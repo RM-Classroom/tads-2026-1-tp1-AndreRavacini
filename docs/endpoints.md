@@ -51,6 +51,8 @@
   "idCategoriaVeiculo": 1
 }
 
+```
+
 **Respostas:**
 - `204 No Content` — Atualizado com sucesso
 - `400 Bad Request` — Dados inválidos
