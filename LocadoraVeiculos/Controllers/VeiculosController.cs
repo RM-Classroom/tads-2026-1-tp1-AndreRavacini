@@ -22,6 +22,26 @@ namespace LocadoraVeiculos.Controllers
             return await _context.Veiculos.ToListAsync();
         }
 
+        [HttpGet("fabricante/{idFabricante}")]
+        public async Task<ActionResult<IEnumerable<Veiculo>>> GetPorFabricante(int idFabricante)
+        {
+            return await _context.Veiculos
+                .Include(v => v.Fabricante)
+                .Include(v => v.CategoriaVeiculo)
+                .Where(v => v.IdFabricante == idFabricante)
+                .ToListAsync();
+        }
+
+        [HttpGet("categoria/{idCategoria}")]
+        public async Task<ActionResult<IEnumerable<Veiculo>>> GetPorCategoria(int idCategoria)
+        {
+            return await _context.Veiculos
+                .Include(v => v.Fabricante)
+                .Include(v => v.CategoriaVeiculo)
+                .Where(v => v.IdCategoriaVeiculo == idCategoria)
+                .ToListAsync();
+        }
+
         [HttpGet("{id}")]
         public async Task<ActionResult<Veiculo>> Get(int id)
         {

@@ -17,9 +17,10 @@ namespace LocadoraVeiculos.Models
         public string Status { get; set; }
 
         public int IdCliente { get; set; }
-        public Cliente Cliente { get; set; }
+        public Cliente? Cliente { get; set; }
 
         public int IdVeiculo { get; set; }
-        public Veiculo Veiculo { get; set; }
+        public Veiculo? Veiculo { get; set; }
+
     }
 }

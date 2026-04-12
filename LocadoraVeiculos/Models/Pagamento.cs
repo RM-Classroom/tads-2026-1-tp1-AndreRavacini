@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace LocadoraVeiculos.Models
 {
@@ -12,7 +13,8 @@ namespace LocadoraVeiculos.Models
         public string FormaPagamento { get; set; }
         public string StatusPagamento { get; set; }
 
+        [ForeignKey("Aluguel")]
         public int IdAluguel { get; set; }
-        public Aluguel Aluguel { get; set; }
+        public Aluguel? Aluguel { get; set; }
     }
 }

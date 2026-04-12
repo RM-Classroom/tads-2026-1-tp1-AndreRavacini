@@ -3,40 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\ANDRE-RAVACINI\\source\\repos\\LocadoraVeiculos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2A876264-397D-93A7-E517-0F63FBA3F39D}|LocadoraVeiculos\\LocadoraVeiculos.csproj|c:\\users\\andre-ravacini\\source\\repos\\locadoraveiculos\\locadoraveiculos\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A876264-397D-93A7-E517-0F63FBA3F39D}|LocadoraVeiculos\\LocadoraVeiculos.csproj|solutionrelative:locadoraveiculos\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A876264-397D-93A7-E517-0F63FBA3F39D}|LocadoraVeiculos\\LocadoraVeiculos.csproj|c:\\users\\andre-ravacini\\source\\repos\\locadoraveiculos\\locadoraveiculos\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A876264-397D-93A7-E517-0F63FBA3F39D}|LocadoraVeiculos\\LocadoraVeiculos.csproj|solutionrelative:locadoraveiculos\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A876264-397D-93A7-E517-0F63FBA3F39D}|LocadoraVeiculos\\LocadoraVeiculos.csproj|c:\\users\\andre-ravacini\\source\\repos\\locadoraveiculos\\locadoraveiculos\\controllers\\veiculoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A876264-397D-93A7-E517-0F63FBA3F39D}|LocadoraVeiculos\\LocadoraVeiculos.csproj|solutionrelative:locadoraveiculos\\controllers\\veiculoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2A876264-397D-93A7-E517-0F63FBA3F39D}|LocadoraVeiculos\\LocadoraVeiculos.csproj|c:\\users\\andre-ravacini\\source\\repos\\locadoraveiculos\\locadoraveiculos\\controllers\\alugueiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A876264-397D-93A7-E517-0F63FBA3F39D}|LocadoraVeiculos\\LocadoraVeiculos.csproj|solutionrelative:locadoraveiculos\\controllers\\alugueiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ANDRE-RAVACINI\\source\\repos\\LocadoraVeiculos\\LocadoraVeiculos\\Migrations\\20260412205054_InicialCorrigida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LocadoraVeiculos\\Migrations\\20260412205054_InicialCorrigida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A876264-397D-93A7-E517-0F63FBA3F39D}|LocadoraVeiculos\\LocadoraVeiculos.csproj|c:\\users\\andre-ravacini\\source\\repos\\locadoraveiculos\\locadoraveiculos\\models\\aluguel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A876264-397D-93A7-E517-0F63FBA3F39D}|LocadoraVeiculos\\LocadoraVeiculos.csproj|solutionrelative:locadoraveiculos\\models\\aluguel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A876264-397D-93A7-E517-0F63FBA3F39D}|LocadoraVeiculos\\LocadoraVeiculos.csproj|c:\\users\\andre-ravacini\\source\\repos\\locadoraveiculos\\locadoraveiculos\\controllers\\fabricantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A876264-397D-93A7-E517-0F63FBA3F39D}|LocadoraVeiculos\\LocadoraVeiculos.csproj|solutionrelative:locadoraveiculos\\controllers\\fabricantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A876264-397D-93A7-E517-0F63FBA3F39D}|LocadoraVeiculos\\LocadoraVeiculos.csproj|c:\\users\\andre-ravacini\\source\\repos\\locadoraveiculos\\locadoraveiculos\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A876264-397D-93A7-E517-0F63FBA3F39D}|LocadoraVeiculos\\LocadoraVeiculos.csproj|solutionrelative:locadoraveiculos\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2A876264-397D-93A7-E517-0F63FBA3F39D}|LocadoraVeiculos\\LocadoraVeiculos.csproj|c:\\users\\andre-ravacini\\source\\repos\\locadoraveiculos\\locadoraveiculos\\controllers\\categoriasveiculocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A876264-397D-93A7-E517-0F63FBA3F39D}|LocadoraVeiculos\\LocadoraVeiculos.csproj|solutionrelative:locadoraveiculos\\controllers\\categoriasveiculocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A876264-397D-93A7-E517-0F63FBA3F39D}|LocadoraVeiculos\\LocadoraVeiculos.csproj|c:\\users\\andre-ravacini\\source\\repos\\locadoraveiculos\\locadoraveiculos\\controllers\\veiculoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A876264-397D-93A7-E517-0F63FBA3F39D}|LocadoraVeiculos\\LocadoraVeiculos.csproj|solutionrelative:locadoraveiculos\\controllers\\veiculoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A876264-397D-93A7-E517-0F63FBA3F39D}|LocadoraVeiculos\\LocadoraVeiculos.csproj|c:\\users\\andre-ravacini\\source\\repos\\locadoraveiculos\\locadoraveiculos\\models\\fabricante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A876264-397D-93A7-E517-0F63FBA3F39D}|LocadoraVeiculos\\LocadoraVeiculos.csproj|solutionrelative:locadoraveiculos\\models\\fabricante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A876264-397D-93A7-E517-0F63FBA3F39D}|LocadoraVeiculos\\LocadoraVeiculos.csproj|c:\\users\\andre-ravacini\\source\\repos\\locadoraveiculos\\locadoraveiculos\\models\\pagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A876264-397D-93A7-E517-0F63FBA3F39D}|LocadoraVeiculos\\LocadoraVeiculos.csproj|solutionrelative:locadoraveiculos\\models\\pagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2A876264-397D-93A7-E517-0F63FBA3F39D}|LocadoraVeiculos\\LocadoraVeiculos.csproj|c:\\users\\andre-ravacini\\source\\repos\\locadoraveiculos\\locadoraveiculos\\models\\veiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A876264-397D-93A7-E517-0F63FBA3F39D}|LocadoraVeiculos\\LocadoraVeiculos.csproj|solutionrelative:locadoraveiculos\\models\\veiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A876264-397D-93A7-E517-0F63FBA3F39D}|LocadoraVeiculos\\LocadoraVeiculos.csproj|c:\\users\\andre-ravacini\\source\\repos\\locadoraveiculos\\locadoraveiculos\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{2A876264-397D-93A7-E517-0F63FBA3F39D}|LocadoraVeiculos\\LocadoraVeiculos.csproj|solutionrelative:locadoraveiculos\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{2A876264-397D-93A7-E517-0F63FBA3F39D}|LocadoraVeiculos\\LocadoraVeiculos.csproj|c:\\users\\andre-ravacini\\source\\repos\\locadoraveiculos\\locadoraveiculos\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A876264-397D-93A7-E517-0F63FBA3F39D}|LocadoraVeiculos\\LocadoraVeiculos.csproj|solutionrelative:locadoraveiculos\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A876264-397D-93A7-E517-0F63FBA3F39D}|LocadoraVeiculos\\LocadoraVeiculos.csproj|c:\\users\\andre-ravacini\\source\\repos\\locadoraveiculos\\locadoraveiculos\\controllers\\fabricantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A876264-397D-93A7-E517-0F63FBA3F39D}|LocadoraVeiculos\\LocadoraVeiculos.csproj|solutionrelative:locadoraveiculos\\controllers\\fabricantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A876264-397D-93A7-E517-0F63FBA3F39D}|LocadoraVeiculos\\LocadoraVeiculos.csproj|c:\\users\\andre-ravacini\\source\\repos\\locadoraveiculos\\locadoraveiculos\\models\\fabricante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A876264-397D-93A7-E517-0F63FBA3F39D}|LocadoraVeiculos\\LocadoraVeiculos.csproj|solutionrelative:locadoraveiculos\\models\\fabricante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A876264-397D-93A7-E517-0F63FBA3F39D}|LocadoraVeiculos\\LocadoraVeiculos.csproj|c:\\users\\andre-ravacini\\source\\repos\\locadoraveiculos\\locadoraveiculos\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{2A876264-397D-93A7-E517-0F63FBA3F39D}|LocadoraVeiculos\\LocadoraVeiculos.csproj|solutionrelative:locadoraveiculos\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2A876264-397D-93A7-E517-0F63FBA3F39D}|LocadoraVeiculos\\LocadoraVeiculos.csproj|c:\\users\\andre-ravacini\\source\\repos\\locadoraveiculos\\locadoraveiculos\\locadoraveiculos.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -49,18 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2A876264-397D-93A7-E517-0F63FBA3F39D}|LocadoraVeiculos\\LocadoraVeiculos.csproj|c:\\users\\andre-ravacini\\source\\repos\\locadoraveiculos\\locadoraveiculos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{2A876264-397D-93A7-E517-0F63FBA3F39D}|LocadoraVeiculos\\LocadoraVeiculos.csproj|solutionrelative:locadoraveiculos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A876264-397D-93A7-E517-0F63FBA3F39D}|LocadoraVeiculos\\LocadoraVeiculos.csproj|c:\\users\\andre-ravacini\\source\\repos\\locadoraveiculos\\locadoraveiculos\\migrations\\20260412184904_inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A876264-397D-93A7-E517-0F63FBA3F39D}|LocadoraVeiculos\\LocadoraVeiculos.csproj|solutionrelative:locadoraveiculos\\migrations\\20260412184904_inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A876264-397D-93A7-E517-0F63FBA3F39D}|LocadoraVeiculos\\LocadoraVeiculos.csproj|c:\\users\\andre-ravacini\\source\\repos\\locadoraveiculos\\locadoraveiculos\\models\\pagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A876264-397D-93A7-E517-0F63FBA3F39D}|LocadoraVeiculos\\LocadoraVeiculos.csproj|solutionrelative:locadoraveiculos\\models\\pagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A876264-397D-93A7-E517-0F63FBA3F39D}|LocadoraVeiculos\\LocadoraVeiculos.csproj|c:\\users\\andre-ravacini\\source\\repos\\locadoraveiculos\\locadoraveiculos\\models\\aluguel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A876264-397D-93A7-E517-0F63FBA3F39D}|LocadoraVeiculos\\LocadoraVeiculos.csproj|solutionrelative:locadoraveiculos\\models\\aluguel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2A876264-397D-93A7-E517-0F63FBA3F39D}|LocadoraVeiculos\\LocadoraVeiculos.csproj|c:\\users\\andre-ravacini\\source\\repos\\locadoraveiculos\\locadoraveiculos\\models\\categoriaveiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -91,56 +91,71 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "20260412205054_InicialCorrigida.cs",
+              "DocumentMoniker": "C:\\Users\\ANDRE-RAVACINI\\source\\repos\\LocadoraVeiculos\\LocadoraVeiculos\\Migrations\\20260412205054_InicialCorrigida.cs",
+              "RelativeDocumentMoniker": "LocadoraVeiculos\\Migrations\\20260412205054_InicialCorrigida.cs",
+              "ToolTip": "C:\\Users\\ANDRE-RAVACINI\\source\\repos\\LocadoraVeiculos\\LocadoraVeiculos\\Migrations\\20260412205054_InicialCorrigida.cs",
+              "RelativeToolTip": "LocadoraVeiculos\\Migrations\\20260412205054_InicialCorrigida.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T20:50:54.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "AlugueisController.cs",
               "DocumentMoniker": "C:\\Users\\ANDRE-RAVACINI\\source\\repos\\LocadoraVeiculos\\LocadoraVeiculos\\Controllers\\AlugueisController.cs",
               "RelativeDocumentMoniker": "LocadoraVeiculos\\Controllers\\AlugueisController.cs",
               "ToolTip": "C:\\Users\\ANDRE-RAVACINI\\source\\repos\\LocadoraVeiculos\\LocadoraVeiculos\\Controllers\\AlugueisController.cs",
               "RelativeToolTip": "LocadoraVeiculos\\Controllers\\AlugueisController.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAcwEwAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-12T20:27:15.608Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "CategoriasVeiculoController.cs",
               "DocumentMoniker": "C:\\Users\\ANDRE-RAVACINI\\source\\repos\\LocadoraVeiculos\\LocadoraVeiculos\\Controllers\\CategoriasVeiculoController.cs",
               "RelativeDocumentMoniker": "LocadoraVeiculos\\Controllers\\CategoriasVeiculoController.cs",
               "ToolTip": "C:\\Users\\ANDRE-RAVACINI\\source\\repos\\LocadoraVeiculos\\LocadoraVeiculos\\Controllers\\CategoriasVeiculoController.cs",
               "RelativeToolTip": "LocadoraVeiculos\\Controllers\\CategoriasVeiculoController.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAcwEYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T20:25:24.853Z"
+              "WhenOpened": "2026-04-12T20:25:24.853Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "VeiculosController.cs",
               "DocumentMoniker": "C:\\Users\\ANDRE-RAVACINI\\source\\repos\\LocadoraVeiculos\\LocadoraVeiculos\\Controllers\\VeiculosController.cs",
               "RelativeDocumentMoniker": "LocadoraVeiculos\\Controllers\\VeiculosController.cs",
               "ToolTip": "C:\\Users\\ANDRE-RAVACINI\\source\\repos\\LocadoraVeiculos\\LocadoraVeiculos\\Controllers\\VeiculosController.cs",
               "RelativeToolTip": "LocadoraVeiculos\\Controllers\\VeiculosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAASwDsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T20:22:21.834Z"
+              "WhenOpened": "2026-04-12T20:22:21.834Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "ClientesController.cs",
               "DocumentMoniker": "C:\\Users\\ANDRE-RAVACINI\\source\\repos\\LocadoraVeiculos\\LocadoraVeiculos\\Controllers\\ClientesController.cs",
               "RelativeDocumentMoniker": "LocadoraVeiculos\\Controllers\\ClientesController.cs",
               "ToolTip": "C:\\Users\\ANDRE-RAVACINI\\source\\repos\\LocadoraVeiculos\\LocadoraVeiculos\\Controllers\\ClientesController.cs",
               "RelativeToolTip": "LocadoraVeiculos\\Controllers\\ClientesController.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAIwDwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-12T20:19:17.97Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "LocadoraVeiculos.csproj",
               "DocumentMoniker": "C:\\Users\\ANDRE-RAVACINI\\source\\repos\\LocadoraVeiculos\\LocadoraVeiculos\\LocadoraVeiculos.csproj",
               "RelativeDocumentMoniker": "LocadoraVeiculos\\LocadoraVeiculos.csproj",
@@ -152,7 +167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "FabricantesController.cs",
               "DocumentMoniker": "C:\\Users\\ANDRE-RAVACINI\\source\\repos\\LocadoraVeiculos\\LocadoraVeiculos\\Controllers\\FabricantesController.cs",
               "RelativeDocumentMoniker": "LocadoraVeiculos\\Controllers\\FabricantesController.cs",
@@ -160,11 +175,12 @@
               "RelativeToolTip": "LocadoraVeiculos\\Controllers\\FabricantesController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T20:10:44.918Z"
+              "WhenOpened": "2026-04-12T20:10:44.918Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": ".gitignore",
               "DocumentMoniker": "C:\\Users\\ANDRE-RAVACINI\\source\\repos\\LocadoraVeiculos\\LocadoraVeiculos\\.gitignore",
               "RelativeDocumentMoniker": "LocadoraVeiculos\\.gitignore",
@@ -176,55 +192,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "20260412184904_Inicial.cs",
-              "DocumentMoniker": "C:\\Users\\ANDRE-RAVACINI\\source\\repos\\LocadoraVeiculos\\LocadoraVeiculos\\Migrations\\20260412184904_Inicial.cs",
-              "RelativeDocumentMoniker": "LocadoraVeiculos\\Migrations\\20260412184904_Inicial.cs",
-              "ToolTip": "C:\\Users\\ANDRE-RAVACINI\\source\\repos\\LocadoraVeiculos\\LocadoraVeiculos\\Migrations\\20260412184904_Inicial.cs",
-              "RelativeToolTip": "LocadoraVeiculos\\Migrations\\20260412184904_Inicial.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T18:49:04.524Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 7,
               "Title": "Pagamento.cs",
               "DocumentMoniker": "C:\\Users\\ANDRE-RAVACINI\\source\\repos\\LocadoraVeiculos\\LocadoraVeiculos\\Models\\Pagamento.cs",
               "RelativeDocumentMoniker": "LocadoraVeiculos\\Models\\Pagamento.cs",
               "ToolTip": "C:\\Users\\ANDRE-RAVACINI\\source\\repos\\LocadoraVeiculos\\LocadoraVeiculos\\Models\\Pagamento.cs",
               "RelativeToolTip": "LocadoraVeiculos\\Models\\Pagamento.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAkwBMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T18:46:19.58Z"
+              "WhenOpened": "2026-04-12T18:46:19.58Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 3,
               "Title": "Aluguel.cs",
               "DocumentMoniker": "C:\\Users\\ANDRE-RAVACINI\\source\\repos\\LocadoraVeiculos\\LocadoraVeiculos\\Models\\Aluguel.cs",
               "RelativeDocumentMoniker": "LocadoraVeiculos\\Models\\Aluguel.cs",
               "ToolTip": "C:\\Users\\ANDRE-RAVACINI\\source\\repos\\LocadoraVeiculos\\LocadoraVeiculos\\Models\\Aluguel.cs",
               "RelativeToolTip": "LocadoraVeiculos\\Models\\Aluguel.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwA8AAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAwwBcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T18:46:03.645Z"
+              "WhenOpened": "2026-04-12T18:46:03.645Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Veiculo.cs",
               "DocumentMoniker": "C:\\Users\\ANDRE-RAVACINI\\source\\repos\\LocadoraVeiculos\\LocadoraVeiculos\\Models\\Veiculo.cs",
               "RelativeDocumentMoniker": "LocadoraVeiculos\\Models\\Veiculo.cs",
               "ToolTip": "C:\\Users\\ANDRE-RAVACINI\\source\\repos\\LocadoraVeiculos\\LocadoraVeiculos\\Models\\Veiculo.cs",
               "RelativeToolTip": "LocadoraVeiculos\\Models\\Veiculo.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA5wBcAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T18:45:49.419Z"
+              "WhenOpened": "2026-04-12T18:45:49.419Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "Cliente.cs",
               "DocumentMoniker": "C:\\Users\\ANDRE-RAVACINI\\source\\repos\\LocadoraVeiculos\\LocadoraVeiculos\\Models\\Cliente.cs",
               "RelativeDocumentMoniker": "LocadoraVeiculos\\Models\\Cliente.cs",
@@ -232,8 +239,7 @@
               "RelativeToolTip": "LocadoraVeiculos\\Models\\Cliente.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAgwBkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T18:45:25.164Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-12T18:45:25.164Z"
             },
             {
               "$type": "Document",
@@ -261,7 +267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ANDRE-RAVACINI\\source\\repos\\LocadoraVeiculos\\LocadoraVeiculos\\Program.cs",
               "RelativeDocumentMoniker": "LocadoraVeiculos\\Program.cs",
@@ -273,7 +279,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\ANDRE-RAVACINI\\source\\repos\\LocadoraVeiculos\\LocadoraVeiculos\\appsettings.json",
               "RelativeDocumentMoniker": "LocadoraVeiculos\\appsettings.json",
@@ -297,7 +303,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "Fabricante.cs",
               "DocumentMoniker": "C:\\Users\\ANDRE-RAVACINI\\source\\repos\\LocadoraVeiculos\\LocadoraVeiculos\\Models\\Fabricante.cs",
               "RelativeDocumentMoniker": "LocadoraVeiculos\\Models\\Fabricante.cs",

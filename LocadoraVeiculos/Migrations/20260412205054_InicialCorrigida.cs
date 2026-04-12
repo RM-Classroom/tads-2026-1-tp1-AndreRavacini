@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace LocadoraVeiculos.Migrations
 {
     /// <inheritdoc />
-    public partial class Inicial : Migration
+    public partial class InicialCorrigida : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -32,7 +32,7 @@ namespace LocadoraVeiculos.Migrations
                     IdCliente = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Nome = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    CPF = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    CPF = table.Column<string>(type: "nvarchar(11)", maxLength: 11, nullable: false),
                     Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Telefone = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     CNH = table.Column<string>(type: "nvarchar(max)", nullable: false)
@@ -70,22 +70,20 @@ namespace LocadoraVeiculos.Migrations
                     ValorDiariaBase = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
                     Status = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     IdFabricante = table.Column<int>(type: "int", nullable: false),
-                    FabricanteIdFabricante = table.Column<int>(type: "int", nullable: false),
-                    IdCategoriaVeiculo = table.Column<int>(type: "int", nullable: false),
-                    CategoriaVeiculoIdCategoriaVeiculo = table.Column<int>(type: "int", nullable: false)
+                    IdCategoriaVeiculo = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Veiculos", x => x.IdVeiculo);
                     table.ForeignKey(
-                        name: "FK_Veiculos_CategoriasVeiculo_CategoriaVeiculoIdCategoriaVeiculo",
-                        column: x => x.CategoriaVeiculoIdCategoriaVeiculo,
+                        name: "FK_Veiculos_CategoriasVeiculo_IdCategoriaVeiculo",
+                        column: x => x.IdCategoriaVeiculo,
                         principalTable: "CategoriasVeiculo",
                         principalColumn: "IdCategoriaVeiculo",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_Veiculos_Fabricantes_FabricanteIdFabricante",
-                        column: x => x.FabricanteIdFabricante,
+                        name: "FK_Veiculos_Fabricantes_IdFabricante",
+                        column: x => x.IdFabricante,
                         principalTable: "Fabricantes",
                         principalColumn: "IdFabricante",
                         onDelete: ReferentialAction.Cascade);
@@ -106,9 +104,9 @@ namespace LocadoraVeiculos.Migrations
                     ValorTotal = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
                     Status = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     IdCliente = table.Column<int>(type: "int", nullable: false),
-                    ClienteIdCliente = table.Column<int>(type: "int", nullable: false),
+                    ClienteIdCliente = table.Column<int>(type: "int", nullable: true),
                     IdVeiculo = table.Column<int>(type: "int", nullable: false),
-                    VeiculoIdVeiculo = table.Column<int>(type: "int", nullable: false)
+                    VeiculoIdVeiculo = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -117,14 +115,12 @@ namespace LocadoraVeiculos.Migrations
                         name: "FK_Alugueis_Clientes_ClienteIdCliente",
                         column: x => x.ClienteIdCliente,
                         principalTable: "Clientes",
-                        principalColumn: "IdCliente",
-                        onDelete: ReferentialAction.Cascade);
+                        principalColumn: "IdCliente");
                     table.ForeignKey(
                         name: "FK_Alugueis_Veiculos_VeiculoIdVeiculo",
                         column: x => x.VeiculoIdVeiculo,
                         principalTable: "Veiculos",
-                        principalColumn: "IdVeiculo",
-                        onDelete: ReferentialAction.Cascade);
+                        principalColumn: "IdVeiculo");
                 });
 
             migrationBuilder.CreateTable(
@@ -137,15 +133,14 @@ namespace LocadoraVeiculos.Migrations
                     ValorPago = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
                     FormaPagamento = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     StatusPagamento = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    IdAluguel = table.Column<int>(type: "int", nullable: false),
-                    AluguelIdAluguel = table.Column<int>(type: "int", nullable: false)
+                    IdAluguel = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Pagamentos", x => x.IdPagamento);
                     table.ForeignKey(
-                        name: "FK_Pagamentos_Alugueis_AluguelIdAluguel",
-                        column: x => x.AluguelIdAluguel,
+                        name: "FK_Pagamentos_Alugueis_IdAluguel",
+                        column: x => x.IdAluguel,
                         principalTable: "Alugueis",
                         principalColumn: "IdAluguel",
                         onDelete: ReferentialAction.Cascade);
@@ -162,19 +157,19 @@ namespace LocadoraVeiculos.Migrations
                 column: "VeiculoIdVeiculo");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Pagamentos_AluguelIdAluguel",
+                name: "IX_Pagamentos_IdAluguel",
                 table: "Pagamentos",
-                column: "AluguelIdAluguel");
+                column: "IdAluguel");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Veiculos_CategoriaVeiculoIdCategoriaVeiculo",
+                name: "IX_Veiculos_IdCategoriaVeiculo",
                 table: "Veiculos",
-                column: "CategoriaVeiculoIdCategoriaVeiculo");
+                column: "IdCategoriaVeiculo");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Veiculos_FabricanteIdFabricante",
+                name: "IX_Veiculos_IdFabricante",
                 table: "Veiculos",
-                column: "FabricanteIdFabricante");
+                column: "IdFabricante");
         }
 
         /// <inheritdoc />

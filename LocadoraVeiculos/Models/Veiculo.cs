@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace LocadoraVeiculos.Models
 {
@@ -15,10 +16,12 @@ namespace LocadoraVeiculos.Models
         public decimal ValorDiariaBase { get; set; }
         public string Status { get; set; }
 
+        [ForeignKey("Fabricante")]
         public int IdFabricante { get; set; }
-        public Fabricante Fabricante { get; set; }
+        public Fabricante? Fabricante { get; set; }
 
+        [ForeignKey("CategoriaVeiculo")]
         public int IdCategoriaVeiculo { get; set; }
-        public CategoriaVeiculo CategoriaVeiculo { get; set; }
+        public CategoriaVeiculo? CategoriaVeiculo { get; set; }
     }
 }

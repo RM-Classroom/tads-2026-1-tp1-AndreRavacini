@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LocadoraVeiculos.Migrations
 {
     [DbContext(typeof(LocadoraContext))]
-    [Migration("20260412184904_Inicial")]
-    partial class Inicial
+    [Migration("20260412205054_InicialCorrigida")]
+    partial class InicialCorrigida
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -33,7 +33,7 @@ namespace LocadoraVeiculos.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdAluguel"));
 
-                    b.Property<int>("ClienteIdCliente")
+                    b.Property<int?>("ClienteIdCliente")
                         .HasColumnType("int");
 
                     b.Property<DateTime?>("DataDevolucao")
@@ -67,7 +67,7 @@ namespace LocadoraVeiculos.Migrations
                     b.Property<decimal>("ValorTotal")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<int>("VeiculoIdVeiculo")
+                    b.Property<int?>("VeiculoIdVeiculo")
                         .HasColumnType("int");
 
                     b.HasKey("IdAluguel");
@@ -114,7 +114,8 @@ namespace LocadoraVeiculos.Migrations
 
                     b.Property<string>("CPF")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(11)
+                        .HasColumnType("nvarchar(11)");
 
                     b.Property<string>("Email")
                         .IsRequired()
@@ -162,9 +163,6 @@ namespace LocadoraVeiculos.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdPagamento"));
 
-                    b.Property<int>("AluguelIdAluguel")
-                        .HasColumnType("int");
-
                     b.Property<DateTime>("DataPagamento")
                         .HasColumnType("datetime2");
 
@@ -184,7 +182,7 @@ namespace LocadoraVeiculos.Migrations
 
                     b.HasKey("IdPagamento");
 
-                    b.HasIndex("AluguelIdAluguel");
+                    b.HasIndex("IdAluguel");
 
                     b.ToTable("Pagamentos");
                 });
@@ -200,15 +198,9 @@ namespace LocadoraVeiculos.Migrations
                     b.Property<int>("AnoFabricacao")
                         .HasColumnType("int");
 
-                    b.Property<int>("CategoriaVeiculoIdCategoriaVeiculo")
-                        .HasColumnType("int");
-
                     b.Property<string>("Cor")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("FabricanteIdFabricante")
-                        .HasColumnType("int");
 
                     b.Property<int>("IdCategoriaVeiculo")
                         .HasColumnType("int");
@@ -236,9 +228,9 @@ namespace LocadoraVeiculos.Migrations
 
                     b.HasKey("IdVeiculo");
 
-                    b.HasIndex("CategoriaVeiculoIdCategoriaVeiculo");
+                    b.HasIndex("IdCategoriaVeiculo");
 
-                    b.HasIndex("FabricanteIdFabricante");
+                    b.HasIndex("IdFabricante");
 
                     b.ToTable("Veiculos");
                 });
@@ -247,15 +239,11 @@ namespace LocadoraVeiculos.Migrations
                 {
                     b.HasOne("LocadoraVeiculos.Models.Cliente", "Cliente")
                         .WithMany()
-                        .HasForeignKey("ClienteIdCliente")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("ClienteIdCliente");
 
                     b.HasOne("LocadoraVeiculos.Models.Veiculo", "Veiculo")
                         .WithMany()
-                        .HasForeignKey("VeiculoIdVeiculo")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("VeiculoIdVeiculo");
 
                     b.Navigation("Cliente");
 
@@ -266,7 +254,7 @@ namespace LocadoraVeiculos.Migrations
                 {
                     b.HasOne("LocadoraVeiculos.Models.Aluguel", "Aluguel")
                         .WithMany()
-                        .HasForeignKey("AluguelIdAluguel")
+                        .HasForeignKey("IdAluguel")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -277,13 +265,13 @@ namespace LocadoraVeiculos.Migrations
                 {
                     b.HasOne("LocadoraVeiculos.Models.CategoriaVeiculo", "CategoriaVeiculo")
                         .WithMany()
-                        .HasForeignKey("CategoriaVeiculoIdCategoriaVeiculo")
+                        .HasForeignKey("IdCategoriaVeiculo")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("LocadoraVeiculos.Models.Fabricante", "Fabricante")
                         .WithMany()
-                        .HasForeignKey("FabricanteIdFabricante")
+                        .HasForeignKey("IdFabricante")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
