@@ -36,6 +36,9 @@ namespace LocadoraVeiculos.Controllers
         [HttpPost]
         public async Task<ActionResult<Cliente>> Post(Cliente cliente)
         {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
             _context.Clientes.Add(cliente);
             await _context.SaveChangesAsync();
 
@@ -45,6 +48,9 @@ namespace LocadoraVeiculos.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> Put(int id, Cliente cliente)
         {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
             if (id != cliente.IdCliente)
                 return BadRequest();
 
