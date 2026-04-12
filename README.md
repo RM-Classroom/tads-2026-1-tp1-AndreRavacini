@@ -4,7 +4,6 @@
 ![ASP.NET Core](https://img.shields.io/badge/.NET-ASP.NET%20Core-purple)
 ![SQL Server](https://img.shields.io/badge/SQL%20Server-Database-red)
 
----
 
 ## 📖 Sobre o Projeto
 
@@ -20,7 +19,6 @@ O sistema permite o gerenciamento completo de:
 
 Utiliza **Entity Framework Core** para persistência de dados em banco **SQL Server Express**, seguindo boas práticas de desenvolvimento backend.
 
----
 
 ## ⚙️ Funcionalidades
 
@@ -39,7 +37,6 @@ Utiliza **Entity Framework Core** para persistência de dados em banco **SQL Ser
 - Tratamento de erros
 - Filtros com JOIN entre tabelas
 
----
 
 ## 🔗 Endpoints Principais
 
@@ -51,7 +48,6 @@ Utiliza **Entity Framework Core** para persistência de dados em banco **SQL Ser
 | Categorias | GET, POST, PUT, DELETE |
 | Aluguéis | GET, POST, PUT, DELETE |
 
----
 
 ## 🔍 Filtros Implementados
 
@@ -61,7 +57,6 @@ Utiliza **Entity Framework Core** para persistência de dados em banco **SQL Ser
 - Buscar aluguéis por veículo
 - Buscar aluguéis ativos
 
----
 
 ## ▶️ Como Executar o Projeto
 
@@ -84,8 +79,6 @@ dotnet run
 https://localhost:7050/swagger
 
 
----
-
 ## 📁 Estrutura do Projeto
 
 - **Controllers** → Endpoints da API  
@@ -93,7 +86,6 @@ https://localhost:7050/swagger
 - **Data** → Contexto do banco (DbContext)  
 - **Migrations** → Versionamento do banco  
 
----
 
 ## 👨‍💻 Autor
 
