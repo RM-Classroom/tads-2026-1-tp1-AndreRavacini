@@ -37,6 +37,13 @@ Utiliza **Entity Framework Core** para persistência de dados em banco **SQL Ser
 - Tratamento de erros
 - Filtros com JOIN entre tabelas
 
+### ✔ Etapa 3 - Testes e Documentação
+- Integração do Swagger para documentação da API
+- Documentação completa dos endpoints (métodos, parâmetros e respostas)
+- Testes manuais realizados via Swagger
+- Validação de cenários de sucesso e erro (HTTP 200, 201, 400, 404)
+- Registro de evidências dos testes realizados
+- Documentação dos filtros implementados
 
 ## 🔗 Endpoints Principais
 
